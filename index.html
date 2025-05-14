@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokopedia Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://images.tokopedia.net/assets-tokopedia-lite/prod/icon144.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="header">
+      <a href="#" class="logo">
+        <img src="./src/images/logo.svg" alt="Logo Tokopedia" />
+      </a>
+      <div class="search-bar">
+        <input type="text" placeholder="Cari di Tokopedia..." />
+      </div>
+      <div class="auth-and-notif">
+        <div class="notification">
+          <i class="bi bi-cart"></i>
+          <i class="bi bi-bell"></i>
+          <i class="bi bi-envelope"></i>
+        </div>
+        <div class="auth-buttons">
+          <button class="btn-login">Masuk</button>
+          <button class="btn-signup">Daftar</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+      <img src="./src/images/banner1.jpeg" alt="Banner Promo" />
+    </div>
+
+    <section class="categoryAndTopup-container section">
+      <!-- Kategori Pilihan -->
+      <div>
+        <div class="heading">
+          <h2>Kategori Pilihan</h2>
+          <hr />
+        </div>
+        <div class="category-grid">
+          <div class="category-item">
+            <img
+              src="./src/images/produkpilihan/produkpilihan_harddisk.webp"
+              alt="Pict"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="./src/images/produkpilihan/produkpilihan_figure.webp"
+              alt="Pict"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="./src/images/produkpilihan/produkpilihan_tas.webp"
+              alt="Pict"
+            />
+          </div>
+          <div class="category-item">
+            <img
+              src="./src/images/produkpilihan/produkpilihan_flatshoes.webp"
+              alt="Pict"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- TopUp tagihan -->
+      <div>
+        <div class="heading">
+          <h2>TopUp dan Tagihan</h2>
+          <hr />
+        </div>
+        <div class="topup-top">
+          <h4>Pulsa</h4>
+          <h4>Paket Data</h4>
+          <h4>Listrik PLN</h4>
+          <h4>Roaming</h4>
+        </div>
+        <div class="topup-bottom">
+          <div>
+            <p>Nomor Telepon</p>
+            <input type="text" placeholder="08123456789" />
+          </div>
+          <div>
+            <p>Nominal</p>
+            <input type="text" />
+          </div>
+          <button>Beli</button>
+        </div>
+      </div>
+
+      <div class="category-badge-container">
+        <div class="category-badge">
+          <i class="bi bi-grid-fill"></i>
+          <p>Kategori</p>
+        </div>
+        <div class="category-badge">
+          <ion-icon name="camera" class="category-icon"></ion-icon>
+          <p>Kamera</p>
+        </div>
+        <div class="category-badge">
+          <ion-icon name="airplane" class="category-icon"></ion-icon>
+          <p>Travel & Entertainment</p>
+        </div>
+        <div class="category-badge">
+          <i class="bi bi-pc-display"></i>
+          <p>Laptop & Computer</p>
+        </div>
+        <div class="category-badge">
+          <i class="bi bi-smartwatch"></i>
+          <p>Jam Tangan</p>
+        </div>
+        <div class="category-badge">
+          <i class="bi bi-handbag-fill"></i>
+          <p>Tas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Berdasarkan Pencarian -->
+    <div class="section">
+      <div class="heading-and-seeall">
+        <div class="heading">
+          <h2>Berdasarkan Pencarianmu</h2>
+          <hr />
+        </div>
+        <div class="see-all">
+          <p>Lihat Semua</p>
+          <ion-icon
+            name="chevron-forward-outline"
+            class="chevron-icon"
+          ></ion-icon>
+        </div>
+      </div>
+      <div class="product-grid">
+        <div class="product-item">
+          <img
+            src="./src/images/berdasarkanpencarian/Kebayacouple.jpeg"
+            alt="Pict"
+          />
+          <div class="name">Set Kebaya Couple</div>
+          <div class="price">Rp132.800</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Barat</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/berdasarkanpencarian/batik.webp" alt="Pict" />
+          <div class="name">Batik Modern</div>
+          <div class="price">Rp144.800</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.9 | Terjual 2 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Utara</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./src/images/berdasarkanpencarian/fittedshirt.webp"
+            alt="Pict"
+          />
+          <div class="name">Fitted Shirt</div>
+          <div class="price">Rp166.599</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.2 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Timur</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/berdasarkanpencarian/sepatu.webp" alt="Pict" />
+          <div class="name">Sepatu Ventela Low</div>
+          <div class="price">Rp166.599</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Utara</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/berdasarkanpencarian/tas.webp" alt="Pict" />
+          <div class="name">Tas Ransel</div>
+          <div class="price">Rp144.800</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.9 | Terjual 1 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Tangerang</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="heading-and-seeall">
+        <div class="heading">
+          <h2>Bayar di Tempat &lt; 100rb</h2>
+          <hr />
+        </div>
+        <div class="see-all">
+          <p>Lihat Semua</p>
+          <ion-icon
+            name="chevron-forward-outline"
+            class="chevron-icon"
+          ></ion-icon>
+        </div>
+      </div>
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="./src/images/cod/bricks.webp" alt="Pict" />
+          <div class="name">Bricks Lego Character</div>
+          <div class="price">Rp12.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.6 | Terjual 1.1 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Barat</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/kaos.jpeg" alt="Pict" />
+          <div class="name">Kaos Pria</div>
+          <div class="price">Rp43.900</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 902</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Bogor</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/handsfree.jpeg" alt="Pict" />
+          <div class="name">Handsfree Hippo</div>
+          <div class="price">Rp23.400</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.9 | Terjual 8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Semarang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/spidol.webp" alt="Pict" />
+          <div class="name">Snowman Whitemarker</div>
+          <div class="price">Rp16.400</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Selatan</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/keychain.webp" alt="Pict" />
+          <div class="name">Custom Gantungan Kunci</div>
+          <div class="price">Rp20.400</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 5 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Timur</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/telkomsel.png" alt="Pict" />
+          <div class="name">Perdana Kuota Telkomsel</div>
+          <div class="price">Rp53.400</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.7 | Terjual 3 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Tangerang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/celanacargo.jpeg" alt="Pict" />
+          <div class="name">Celana Cargo Panjang</div>
+          <div class="price">Rp82.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.4 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Karawang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/hoodie.jpeg" alt="Pict" />
+          <div class="name">Hoodie Aesthetic List</div>
+          <div class="price">Rp58.900</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.7 | Terjual 872</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Depok</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/sandalslides.jpg" alt="Pict" />
+          <div class="name">Sandal Slides Adidas</div>
+          <div class="price">Rp79.999</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Tangerang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/cod/Mamypoko.jpeg" alt="Pict" />
+          <div class="name">MamyPoko Xtra Kering</div>
+          <div class="price">Rp50.900</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.6 | Terjual 739</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Depok</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rekomendasi Untukmu -->
+    <section class="section">
+      <div class="heading-and-seeall">
+        <div class="heading">
+          <h2>Rekomendasi Untukmu</h2>
+          <hr />
+        </div>
+        <div class="see-all">
+          <p>Lihat Semua</p>
+          <ion-icon
+            name="chevron-forward-outline"
+            class="chevron-icon"
+          ></ion-icon>
+        </div>
+      </div>
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/itels25.jpeg" alt="Pict" />
+          <div class="name">itel S25 ULTRA 8+128</div>
+          <div class="price">Rp2.699.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 7 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Tangerang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/helmbogo.jpg" alt="Pict" />
+          <div class="name">Helm Bogo Classic</div>
+          <div class="price">Rp52.400</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Utara</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./src/images/rekomendasiuntukmu/sandalgunung.jpg"
+            alt="Pict"
+          />
+          <div class="name">Sandal Gunung Pria</div>
+          <div class="price">Rp76.960</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.7 | Terjual 2.3 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Bogor</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./src/images/rekomendasiuntukmu/KipasAngin.jpeg"
+            alt="Pict"
+          />
+          <div class="name">Kipas Angin Genggam</div>
+          <div class="price">Rp99.800</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Barat</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/thinkpad.jpg" alt="Pict" />
+          <div class="name">Laptop Lenovo Thinkpad</div>
+          <div class="price">Rp3.801.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Utara</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/cctv.jpeg" alt="Pict" />
+          <div class="name">V380 Pro CCTV Outdoor</div>
+          <div class="price">Rp99.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.9 | Terjual 3.5 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Tangerang</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./src/images/rekomendasiuntukmu/huaweiband.jpeg"
+            alt="Pict"
+          />
+          <div class="name">Huawei Band 10</div>
+          <div class="price">Rp499.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 7 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Depok</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/charger.jpg" alt="Pict" />
+          <div class="name">Anker Wall Charger</div>
+          <div class="price">Rp265.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Bekasi</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="./src/images/rekomendasiuntukmu/jersey.jpeg" alt="Pict" />
+          <div class="name">Erspo Timnas Jersey</div>
+          <div class="price">Rp199.800</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 1.8 Rb</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Utara</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./src/images/rekomendasiuntukmu/tecnocamon.jpeg"
+            alt="Pict"
+          />
+          <div class="name">Tecno Camon 40 Pro 5G</div>
+          <div class="price">Rp3.839.000</div>
+          <div class="rateandlocation-container">
+            <div class="rating">
+              <ion-icon name="star" class="icon-star"></ion-icon>
+              <p>4.8 | Terjual 981</p>
+            </div>
+            <div class="location">
+              <ion-icon name="location" class="icon-location"></ion-icon>
+              <p>Jakarta Timur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <div class="section download-container">
+      <div class="download">
+        <div class="heading">
+          <h2>Download Aplikasi Tokopedia</h2>
+          <hr />
+        </div>
+        <p>
+          Nikmati pengalaman belanja lebih praktis dan hemat dengan aplikasi
+          Tokopedia.
+        </p>
+        <p>Dapatkan update promo eksklusif dan notifikasi pesanan.</p>
+        <div class="container-btn-download">
+          <div class="btn-download">
+            <ion-icon
+              name="logo-google-playstore"
+              class="icon-download"
+            ></ion-icon>
+            <div>
+              <p>GET IN ON</p>
+              <h4>GOOGLE PLAY</h4>
+            </div>
+          </div>
+          <div class="btn-download">
+            <ion-icon name="logo-apple" class="icon-download"></ion-icon>
+            <div>
+              <p>Download On the</p>
+              <h4>App Store</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="qrcode">
+        <img src="src/images/qr.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Buka Toko -->
+    <div class="bukatoko section">
+      <p class="highlight">Punya Toko Online? Buka cabangnya di Tokopedia</p>
+      <p>
+        Mudah, nyaman dan bebas Biaya Layanan Transaksi.
+        <strong>GRATIS!</strong>
+      </p>
+      <button class="green-btn">Buka Toko GRATIS</button>
+
+      <p style="margin-top: 24px">
+        <strong>Nikmati Mudahnya Jualan Online di Tokopedia</strong><br />
+        Tokopedia merupakan salah satu platform jual beli online terbesar di
+        Indonesia yang menyediakan berbagai produk dari berbagai kategori.
+        Dengan Tokopedia, Anda dapat menemukan berbagai produk mulai dari
+        elektronik, fashion, hingga kebutuhan sehari-hari. Tokopedia juga
+        menawarkan berbagai fitur menarik seperti promo, cashback, dan gratis
+        ongkir untuk memudahkan Anda dalam berbelanja.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="section footer">
+      <div>
+        <div class="heading">
+          <h2>Tokopedia</h2>
+          <hr />
+        </div>
+        <ul>
+          <li><a href="#">Tentang Tokopedia</a></li>
+          <li><a href="#">Karir</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Tokpedia Care</a></li>
+          <li><a href="#">Mitra Tokopedia</a></li>
+          <li><a href="#">Investor Relations</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="heading">
+          <h2>Beli</h2>
+          <hr />
+        </div>
+        <ul>
+          <li><a href="#">Tagihan & TopUp</a></li>
+          <li><a href="#">Tukar Tambah Handphone</a></li>
+          <li><a href="#">Tokopedia COD</a></li>
+          <li><a href="#">Tokpedia Paylater</a></li>
+          <li><a href="#">Tokopedia Seru</a></li>
+          <li><a href="#">TokoPoint</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="heading">
+          <h2>Jual</h2>
+          <hr />
+        </div>
+        <ul>
+          <li><a href="#">Pusat Edukasi Seller</a></li>
+          <li><a href="#">Mitra Toppers</a></li>
+          <li><a href="#">Daftar Official Store</a></li>
+          <li><a href="#">Tokpedia Seller</a></li>
+          <li><a href="#">Tokopedia MSME Academy</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="heading">
+          <h2>Bantuan dan Panduan</h2>
+          <hr />
+        </div>
+        <ul>
+          <li><a href="#">Tokopedia Care</a></li>
+          <li><a href="#">Syarat dan Ketentuan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Pusat Resolusi</a></li>
+          <li><a href="#">Pusat Bantuan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section footer-bottom">
+      <p>&copy; 2025 Tokopedia Clone</p>
+      <div>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+    </div>
+  </body>
+</html>
